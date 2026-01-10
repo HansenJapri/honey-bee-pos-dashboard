@@ -1,0 +1,12 @@
+{
+  "name": "dashboard-honey-bee-ponsel-stationary",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev -w fresh-market-pos",
+    "dev:api": "npm run dev -w api",
+    "dev:all": "npm run dev -w fresh-market-pos & npm run dev -w api"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
