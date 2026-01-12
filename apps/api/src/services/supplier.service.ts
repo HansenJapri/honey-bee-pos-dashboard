@@ -1,5 +1,5 @@
-import { db } from '../config/database';
-import { suppliers } from '../db/schema';
+import { db } from '../config/database.js';
+import { suppliers } from '../db/schema/index.js';
 import { eq, sql } from 'drizzle-orm';
 
 export interface CreateSupplierDto {

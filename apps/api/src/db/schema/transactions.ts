@@ -1,8 +1,8 @@
 import { pgTable, uuid, varchar, integer, decimal, text, date, timestamp, pgEnum } from 'drizzle-orm/pg-core';
-import { users } from './users';
-import { categories } from './categories';
-import { products } from './products';
-import { suppliers } from './suppliers';
+import { users } from './users.js';
+import { categories } from './categories.js';
+import { products } from './products.js';
+import { suppliers } from './suppliers.js';
 
 export const transactionTypeEnum = pgEnum('transaction_type', ['income', 'expense']);
 export const paymentMethodEnum = pgEnum('payment_method', ['cash', 'bank_transfer', 'qris']);

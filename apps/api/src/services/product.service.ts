@@ -1,5 +1,5 @@
-import { db } from '../config/database';
-import { products, categories, suppliers } from '../db/schema';
+import { db } from '../config/database.js';
+import { products, categories, suppliers } from '../db/schema/index.js';
 import { eq, sql, lt } from 'drizzle-orm';
 
 export interface CreateProductDto {

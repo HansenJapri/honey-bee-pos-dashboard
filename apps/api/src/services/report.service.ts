@@ -1,5 +1,5 @@
-import { db } from '../config/database';
-import { transactions, categories, products } from '../db/schema';
+import { db } from '../config/database.js';
+import { transactions, categories, products } from '../db/schema/index.js';
 import { eq, sql, and, gte, lte, desc, lt } from 'drizzle-orm';
 
 export class ReportService {

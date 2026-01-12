@@ -1,5 +1,5 @@
-import { db } from '../config/database';
-import { categories } from '../db/schema';
+import { db } from '../config/database.js';
+import { categories } from '../db/schema/index.js';
 import { eq } from 'drizzle-orm';
 
 export interface CreateCategoryDto {

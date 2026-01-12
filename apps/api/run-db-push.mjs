@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Set DATABASE_URL for Neon PostgreSQL
-process.env.DATABASE_URL = "postgresql://neondb_owner:npg_DdgcR0oiGtj2@ep-proud-queen-a1sovfqz-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
+process.env.DATABASE_URL = "postgresql://neondb_owner:npg_drxKBMScL7w8@ep-soft-cherry-a1a91j94-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
 
 const drizzleKitPath = join(__dirname, 'node_modules', 'drizzle-kit', 'bin.cjs');
 

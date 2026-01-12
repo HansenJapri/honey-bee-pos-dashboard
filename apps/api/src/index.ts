@@ -1,13 +1,14 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-import { authRoutes } from './routes/auth.routes';
-import { productRoutes } from './routes/product.routes';
-import { transactionRoutes } from './routes/transaction.routes';
-import { supplierRoutes } from './routes/supplier.routes';
-import { categoryRoutes } from './routes/category.routes';
-import { reportRoutes } from './routes/report.routes';
-import { errorMiddleware } from './middleware/error.middleware';
+import { authRoutes } from './routes/auth.routes.js';
+import { productRoutes } from './routes/product.routes.js';
+import { transactionRoutes } from './routes/transaction.routes.js';
+import { supplierRoutes } from './routes/supplier.routes.js';
+import { categoryRoutes } from './routes/category.routes.js';
+import { reportRoutes } from './routes/report.routes.js';
+import { errorMiddleware } from './middleware/error.middleware.js';
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;

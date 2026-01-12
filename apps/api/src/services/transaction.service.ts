@@ -1,5 +1,5 @@
-import { db } from '../config/database';
-import { transactions, categories, products, suppliers, users } from '../db/schema';
+import { db } from '../config/database.js';
+import { transactions, categories, products, suppliers, users } from '../db/schema/index.js';
 import { eq, sql, desc, and, gte, lte } from 'drizzle-orm';
 
 export interface CreateTransactionDto {

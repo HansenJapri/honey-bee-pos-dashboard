@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { reportService } from '../services/report.service';
+import { reportService } from '../services/report.service.js';
 
 export const reportRoutes = Router();
 
